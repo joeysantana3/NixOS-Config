@@ -127,6 +127,33 @@
     wget
     git
     ffmpeg-full
+    vscode
+    gzip
+    unar
+    unzip
+    p7zip
+    cpio
+
+
+    # Build toolchains
+    autoconf
+    automake
+    gnumake
+    scons
+    cmake
+    gcc8
+    clang
+    clang-analyzer
+    clang-manpages
+    clang-tools
+
+    python310
+    pipenv
+
+    chromium
+
+    gst_all_1.gstreamer
+    handbrake
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
