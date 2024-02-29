@@ -154,6 +154,7 @@
 
     gst_all_1.gstreamer
     handbrake
+    vlc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
