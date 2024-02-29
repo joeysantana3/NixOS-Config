@@ -20,11 +20,6 @@
     enable = true;
     ohMyZsh = {
       enable = true;
-      theme = "robbyrussell";
-      plugins = [
-        "git"
-        "systemadmin"
-      ];
     };
   };
 
@@ -168,6 +163,9 @@
     gst_all_1.gstreamer
     handbrake
     vlc
+
+    # Fonts
+    meslo-lgs-nf
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
