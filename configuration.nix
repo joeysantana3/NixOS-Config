@@ -16,6 +16,18 @@
     enable = true;
   };
 
+  programs.zsh = {
+    enable = true;
+    ohMyZsh = {
+      enable = true;
+      theme = "robbyrussell";
+      plugins = [
+        "git"
+        "systemadmin"
+      ];
+    };
+  };
+
   # Enable OpenGL
   hardware.opengl = {
     enable = true;
@@ -110,6 +122,7 @@
     isNormalUser = true;
     description = "Joey";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
     packages = with pkgs; [
       firefox
       kate
